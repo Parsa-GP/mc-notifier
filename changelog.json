@@ -1,26 +1,97 @@
 [
-  {
-    "id": "1.19.4-pre1",
-    "log": "**Note**\n⚠️ Experimental 1.20 worlds created in the previous snapshot (23w07a) can no longer be opened in this version\n\n**Changes**\n✨ The enchantment glint for items in the inventory has been made more visible\n💧 Potions no longer have an enchantment glint due to it obscuring the color of the potion contents\n♿ Added a built-in resource pack that enhances the contrast of UI elements, which can be enabled in the Accessibility Options screen\n🖥️ The appearance of the tab bar in the Create New World screen has been updated\n🖌️ The Brush crafting recipe now uses a Feather, Copper Ingot and Stick in a vertical line\n⚙️ New `execute` sub-command for finding positions on top of a heightmap. Changes the height of the execution position to be on top of the given heightmap\n- `execute positioned over <heightmap>`\n\n**Fixes**\n♥ Axolotls no longer give the Regeneration effect to nearby players after they kill a mob, and do not grant \"The Healing Power of Friendship!\" advancement\n🏞️ Create new world screen appears even when world is created; clicking on button causes freeze or crash\n🐴 Camels, horses and mules bounce high into the air when being ridden across water\n🐪 Sitting camels don't stand up and begin following players that are tempting them with their favorite food\n🌸 On existing snapshot servers, cherry grove biomes cannot be found with \"/locate\", nor do they generate\n📦 Disabling experimental features on the world creation screen causes pack validation to fail\n🗯️ Some mobs panic when receiving fall damage\n🔥 Cherry Logs and Wood can't be used as fuel in furnaces\n👮‍♂️The server process crashes when making a slime ride a iron golem\n🖌️ Brush Recipe is in the Vanilla datapack, not 1.20\n\n...And more changes & fixes!",
-    "title": "**1.19.4 Pre-release 1**",
-    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-1"
-  },
-  {
-    "id": "1.19.4-pre2",
-    "log": "**Changes**\n🌸 Updated the texture for Pink Petals, Cherry Door, Cherry Sapling, and Cherry Boat with Chest\n🏺 Updated model for the Decorated Pot\n⚙️ Only mobs in the `dismounts_underwater` entity tag will now force the rider to dismount when underwater\n\n**Fixes**\n🏹 Loaded crossbows look unloaded in item frames and when dropped on the ground\n⛏️ Casting issue: Broken blocks drop items in the wrong position at high distances\n🖥️ Zombie riding chicken or skeleton riding spider not considered controllers by `/execute` on controller command\n🔘 Tooltips from selected buttons and sliders don’t disappear when expected\n📦 UI Buttons break certain resource packs as of 23w06a\n🆎️ Upon entering the credits screen while in F1 mode, the Minecraft: Java Edition logo does not display correctly\n🏷️ `item_display` does not take some nbt tags into account\n🔢 Display entities in spawn chunks with `interpolation_duration` greater than 0 visually reset to default transformation on rejoin\n💾 There is no “Will be saved in…” text in the new world creation menu\n<:emerald:590539774365007912> Clicking with an item that is out of stock in the villager trading menu with sufficient payment will allow purchase of the item regardless\n👜 Items are not rendered in the bundle UI\n⚔️ Striders and blazes do not take five times the damage when using `/damage` with freeze type\n⛵ Player can climb up one block while riding a boat or raft\n🌊 Water mobs cannot be ridden in water\n\n...And more!",
-    "title": "**1.19.4 Pre-release 2**",
-    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-2"
-  },
-  {
-    "id": "23w07a",
-    "log": "**Experimental Features**\n🦄 Added Sniffer mob and Torchflower\n- Sniffers cannot be tempted or tamed, are passive friendly mobs, sniff in the air and occasionally dig for seeds\n- Torchflower seed can be planted on farmland and grows into a flower, and can be used to breed Sniffers. The full-grown flower can be harvested, replanted, and crafted into a dye\n⚒️ Added Archeology, Pottery Shards, Suspicious Sand, the Brush item, and Decorated Pots\n- Suspicious Sand can be found in Desert Temples and Desert Wells, and can be brushed\n- Decorated Pots can be crafted with four Pottery Shards. Can replace either side with Brick to create Decorated Pots with no pictures\n🌸 Added Cherry Grove biome, new Cherry wood set and Pink Petals block\n- You can find the new biome in the mountains, like Meadows\n\n**Changes**\n🛠️ The Crafting Table recipe is unlocked immediately on creating a new world\n🎵 While playing a music disc, the Jukebox will emit a redstone signal of 15; Droppers and hoppers can now interact with Jukeboxes\n♥️ When breeding horses and the like, the babies' speed, jump height and health are no longer biased toward the average\n⚙️ Added Interaction Entities, new types of entities that records attacks (\"left clicks\") and interactions (\"right clicks\")\n\n**Fixes**\n🐦 Allays sometimes have a several-second delay before deciding to follow the player\n🏇 Player is kicked from a server for flying in death screen when dying on a Horse or Camel\n💥 The game crashes when navigating with arrow keys after changing key binds\n🐴 Players cannot dismount when riding `item_display`, `block_display` and `text_display` using the ride command\n✏️ Z-fighting on the text of text displays\n✨ Resource Pack won't load if it contains reference to non-existing particles\n\n...And many more!",
-    "title": "**Snapshot 23w07a**",
-    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w07a"
-  },
-  {
-    "id": "23w06a",
-    "log": "**Features & Changes**\n🎵 Jukeboxes now emit a note particle above them while playing a music disc to match Bedrock\n♿ Added a new option in the Accessibility menu called Damage Tilt for controlling the amount of camera shake when being hurt\n🏞️ Updated Create New World Screen\n- Tabs can be switched with the keyboard by pressing Ctrl+Tab and Ctrl+Shift+Tab\n- Specific tabs can also be navigated to by pressing Ctrl+Tab Number\n- Added a screen to easily toggle experimental features\n🖼️ Added painting variants to creative menu\n⚙️ Three new entities have been added for flexible display of items, blocks and text\n🤺 Added new command to apply damage to entities. \n- `/damage <target> <amount> [<damageType>] [at <location>]`\n- `/damage <target> <amount> [<damageType>] [by <entity>] [from <cause>]`\n🗜️ Added new `execute` sub-command for summoning new entity and binding context (`@s`) to it\n- `execute summon <entity id>`\n🌳 Added `doVinesSpread` game rule, determining if vines will spread to nearby blocks\n\n**Fixes**\n📳 Numerous fixes regarding Skulk Sensors not activated upon some entity activities & player interactions\n🦍 The Warden does not deal the same amount of damage to the player and entities in difficult mode\n🐷 Opening a Minecart with Hopper provokes Piglins, even though opening a Hopper doesn't provoke them\n👖 Z-fighting can be seen on leggings and boots worn by entities\n⚙️ The execute on owner sub-command does not select the owner of a horse, donkey, llama, or mule\n🐎 Using `/ride` on an entity in another dimension causes client/server desync\n🖥️ `/execute if loaded <pos>` alone always fails\n🖋️ In some languages, text is too long and escapes buttons\n🛡️ Blocking attacks with shields causes the damage tilt to play and red damage tint to show\n\n...And many more technical changes and fixes!",
-    "title": "**Snapshot 23w06a**",
-    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w06a"
-  }
+
+	{		"id":"1.19.3",
+
+		"log":"**Highlights**\n📦Someexperimentalfeaturesarenowavailablethroughbuilt-inexperimentaldatapacks\n🧥Addednewdefaultskinsforofflineplayers\n👻TheVexnowhasanewlook\n🦴IntheNetherdimensionEndermen,SkeletonsandWitherSkeletonsnowonlyspawnatlightlevel7andbelow(insteadof11andbelow)\n💡NumerouschangestoCreativeInventoryordering&contents\n🥚AddednewSpawnEggitemsforEnderDragon,IronGolem,SnowGolemandWithermobstoCreativemode\n📩AddedDraftPlayerReports\n🏜️Addednew`fillbiome`command&sub-commands`executeif|unlessbiome`\n⚙️AddednewTelemetryEvents\n📜Newgamerules:`blockExplosionDropDecay,mobExplosionDropDecay,tntExplosionDropDecay,snowAccumulationHeight,waterSourceConversion,lavaSourceConversion,globalSoundEvents`\n\n**ExperimentalFeatures**\n🐪AddedCamels\n🎍Addednewbamboowoodset\n📚AddedChiseledBookshelves\n💰AddedBundles\n📝AddedHangingSigns\n🎵WhenplacingaMobHeadonaNoteBlock,thatNoteBlockwillnowplayoneoftheambientsoundsofthatmobwhenplayedbyaplayerorpoweredbyRedstone\n🐽AddedPiglinHeads\n\n**Fixes**\n...Toomanytolistout!Checkthechangelogforthefulllistofallchanges&fixes.",
+
+		"title":"**1.19.3**",
+
+		"article":"https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-3"
+
+	},
+
+	{
+
+		"id":"23w05a",
+
+		"log":"**Changes**\n🏞️UpdatedtheCreateNewWorldscreen.Nowhasthreetabs:\n-Game-Taballowstosettheworldname,Gamemode,Difficultlyandwhethertoallowcheats\n-World-TaballowstosettheWorld-TypeandSeed,andtotogglethegenerationofstructuresandthebonuschest\n-More-TabprovidesaccesstotheGameRulesandDataPackSelectionScreen\n⚙️RemovedtheImportSettingsbuttonandthecorrespondingExportSettingsbuttonintheEditWorldScreen\n👕Interactingwitharmororelytraitemsin-handwillnowswapthemwithequippedgear\n🖥️ChangedhowtooltipsinthemenuUIarepositionedsobuttonsarestillreadable\n✨AddedtwonewoptionsintheAccessibilitymenuforadjustingthespeedandtransparencyofenchantmentglints\n♾️`infinite`isnowavalidoptionforeffectdurations\n\n**ExperimentalFeatures**\n🥼Armortrimscannowbeappliedtoleatherarmor\n🔹Armorcannowhavetrimsofthesamematerialitismadeoutof\n📦AdjustedloottableforSmithingTemplates\n-Dune,Coast,Wild,SentryTemplateswillnowalwaysgenerate2templatesinachestwhenfound\n-NetheriteUpgradesmithingtemplateshavebeenmadetwiceascommon\n-1EyeArmorTrimisnowguaranteedineveryStrongholdlibrarychest\n-WoodlandMansionsnowhaveagreatlyincreasedchanceofgeneratingtheVexArmorTrimsmithingtemplate\n-Acrosstheboard,smithingtemplateshavebeenmadeslightlymorecommon\n\n**Fixes**\n🧟‍♂️Drownednolongerhaveadifferentswimminganimation\n🐪CamelsandFrogsdon'tplaytheirwalkinganimationswhentheyaredamaged\n🇺🇸TheaccessibilityonboardingscreencannotdisplayanylanguageotherthanEnglish(US)\n📚Strongholdlibraryloottablehasbeenreplacedbystrongholdaltarloottable\n🎨Pixelsnotpresentinthepalettesgeterased,notkept\n\n...Andmore!",
+
+		"title":"**Snapshot23w05a**",
+
+		"article":"https://www.minecraft.net/en-us/article/minecraft-snapshot-23w05a"
+
+	},
+
+	{
+
+		"id":"1.19.4-pre1",
+
+		"log":"**Note**\n⚠️Experimental1.20worldscreatedintheprevioussnapshot(23w07a)cannolongerbeopenedinthisversion\n\n**Changes**\n✨Theenchantmentglintforitemsintheinventoryhasbeenmademorevisible\n💧Potionsnolongerhaveanenchantmentglintduetoitobscuringthecolorofthepotioncontents\n♿Addedabuilt-inresourcepackthatenhancesthecontrastofUIelements,whichcanbeenabledintheAccessibilityOptionsscreen\n🖥️TheappearanceofthetabbarintheCreateNewWorldscreenhasbeenupdated\n🖌️TheBrushcraftingrecipenowusesaFeather,CopperIngotandStickinaverticalline\n⚙️New`execute`sub-commandforfindingpositionsontopofaheightmap.Changestheheightoftheexecutionpositiontobeontopofthegivenheightmap\n-`executepositionedover<heightmap>`\n\n**Fixes**\n♥AxolotlsnolongergivetheRegenerationeffecttonearbyplayersaftertheykillamob,anddonotgrant\"TheHealingPowerofFriendship!\"advancement\n🏞️Createnewworldscreenappearsevenwhenworldiscreated;clickingonbuttoncausesfreezeorcrash\n🐴Camels,horsesandmulesbouncehighintotheairwhenbeingriddenacrosswater\n🐪Sittingcamelsdon'tstandupandbeginfollowingplayersthataretemptingthemwiththeirfavoritefood\n🌸Onexistingsnapshotservers,cherrygrovebiomescannotbefoundwith\"/locate\",nordotheygenerate\n📦Disablingexperimentalfeaturesontheworldcreationscreencausespackvalidationtofail\n🗯️Somemobspanicwhenreceivingfalldamage\n🔥CherryLogsandWoodcan'tbeusedasfuelinfurnaces\n👮‍♂️Theserverprocesscrasheswhenmakingaslimerideairongolem\n🖌️BrushRecipeisintheVanilladatapack,not1.20\n\n...Andmorechanges&fixes!",
+
+		"title":"**1.19.4Pre-release1**",
+
+		"article":"https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-1"
+
+	},
+
+	{
+
+		"id":"23w03a",
+
+		"log":"**ExperimentalChanges**\n🎵Mobheadscannowbeplacedontopofnoteblockswithoutsneaking\n\n**Changes**\n👻Vexesnowuseaseparatecharginganimationwhenempty-handed\n🥼ArmorStandsnowpreservecustomnameswhenplacedandbroken\n♿Addedanaccessibilityonboardingscreenforplayerslaunchingthegameforthefirsttime\n🦘Auto-Jumpisnowoffbydefault\n⌨️Addedarrowkeynavigation.Menuscreenscannowbenavigatedbyusingthearrowkeys.Whennavigatingwitharrowkeys,slidersneedtobeactivatedbypressingEnterorSpacetostartchangingthevalue\n🕐Addedanew\"NotificationDisplayTime\"accessibilityoption\n⚙️Thedatapackversionisnow11\n🗺️The`clone`commandnowsupportscloningtoandfromdifferentdimensions.Newsyntax:`clone[from<sourceDimension>]<begin><end>[to<targetDimension>]<destination>...`\n🐴Newcommandtoallowentitiestostartorstopridingotherentities-`ride<target>mount<vehicle>`/`ride<target>dismount`\n🔧Addednewgamerule`commandModificationBlockLimit`,controllingthemaximumnumberofblockschangedinoneexecutionof`clone`,`fill`and`fillbiome`\n\n**Fixes**\n⚔️Damagewobblenolongershowsdirectionofincomingdamage\n⏹️MultiplebuttonscanbeselectedbypressinganotherbuttonandTab\n👁️Thespectatecommanddoesnotworkbetweendimensions\n🛒Minecartwithhoppernotpickingmatchingitemsfromamixedpile\n🔥Burningmobswon'tgetextinguishedbyraininwarmpatchesofFrozenOceanbiome\n🛏️EnteringanEndPortalwhilstsleepingcausesthebedtobeoccupiedpermanently\n👨‍🌾VillagerAIbrokenwhenworkstationisnearby\n\n...Andmanymoretechnicalchanges&fixes!",
+
+		"title":"**Snapshot23w03a**",
+
+		"article":"https://www.minecraft.net/en-us/article/minecraft-snapshot-23w03a"
+
+	},
+
+	{
+
+		"id":"1.19.4-pre2",
+
+		"log":"**Changes**\n🌸UpdatedthetextureforPinkPetals,CherryDoor,CherrySapling,andCherryBoatwithChest\n🏺UpdatedmodelfortheDecoratedPot\n⚙️Onlymobsinthe`dismounts_underwater`entitytagwillnowforcetheridertodismountwhenunderwater\n\n**Fixes**\n🏹Loadedcrossbowslookunloadedinitemframesandwhendroppedontheground\n⛏️Castingissue:Brokenblocksdropitemsinthewrongpositionathighdistances\n🖥️Zombieridingchickenorskeletonridingspidernotconsideredcontrollersby`/execute`oncontrollercommand\n🔘Tooltipsfromselectedbuttonsandslidersdon’tdisappearwhenexpected\n📦UIButtonsbreakcertainresourcepacksasof23w06a\n🆎️UponenteringthecreditsscreenwhileinF1mode,theMinecraft:JavaEditionlogodoesnotdisplaycorrectly\n🏷️`item_display`doesnottakesomenbttagsintoaccount\n🔢Displayentitiesinspawnchunkswith`interpolation_duration`greaterthan0visuallyresettodefaulttransformationonrejoin\n💾Thereisno“Willbesavedin…”textinthenewworldcreationmenu\n<:emerald:590539774365007912>Clickingwithanitemthatisoutofstockinthevillagertradingmenuwithsufficientpaymentwillallowpurchaseoftheitemregardless\n👜ItemsarenotrenderedinthebundleUI\n⚔️Stridersandblazesdonottakefivetimesthedamagewhenusing`/damage`withfreezetype\n⛵Playercanclimbuponeblockwhileridingaboatorraft\n🌊Watermobscannotberiddeninwater\n\n...Andmore!",
+
+		"title":"**1.19.4Pre-release2**",
+
+		"article":"https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-2"
+
+	},
+
+	{
+
+		"id":"23w07a",
+
+		"log":"**ExperimentalFeatures**\n🦄AddedSniffermobandTorchflower\n-Snifferscannotbetemptedortamed,arepassivefriendlymobs,sniffintheairandoccasionallydigforseeds\n-Torchflowerseedcanbeplantedonfarmlandandgrowsintoaflower,andcanbeusedtobreedSniffers.Thefull-grownflowercanbeharvested,replanted,andcraftedintoadye\n⚒️AddedArcheology,PotteryShards,SuspiciousSand,theBrushitem,andDecoratedPots\n-SuspiciousSandcanbefoundinDesertTemplesandDesertWells,andcanbebrushed\n-DecoratedPotscanbecraftedwithfourPotteryShards.CanreplaceeithersidewithBricktocreateDecoratedPotswithnopictures\n🌸AddedCherryGrovebiome,newCherrywoodsetandPinkPetalsblock\n-Youcanfindthenewbiomeinthemountains,likeMeadows\n\n**Changes**\n🛠️TheCraftingTablerecipeisunlockedimmediatelyoncreatinganewworld\n🎵Whileplayingamusicdisc,theJukeboxwillemitaredstonesignalof15;DroppersandhopperscannowinteractwithJukeboxes\n♥️Whenbreedinghorsesandthelike,thebabies'speed,jumpheightandhealtharenolongerbiasedtowardtheaverage\n⚙️AddedInteractionEntities,newtypesofentitiesthatrecordsattacks(\"leftclicks\")andinteractions(\"rightclicks\")\n\n**Fixes**\n🐦Allayssometimeshaveaseveral-seconddelaybeforedecidingtofollowtheplayer\n🏇PlayeriskickedfromaserverforflyingindeathscreenwhendyingonaHorseorCamel\n💥Thegamecrasheswhennavigatingwitharrowkeysafterchangingkeybinds\n🐴Playerscannotdismountwhenriding`item_display`,`block_display`and`text_display`usingtheridecommand\n✏️Z-fightingonthetextoftextdisplays\n✨ResourcePackwon'tloadifitcontainsreferencetonon-existingparticles\n\n...Andmanymore!",
+
+		"title":"**Snapshot23w07a**",
+
+		"article":"https://www.minecraft.net/en-us/article/minecraft-snapshot-23w07a"
+
+	},
+
+	{
+
+		"id":"23w06a",
+
+		"log":"**Features&Changes**\n🎵JukeboxesnowemitanoteparticleabovethemwhileplayingamusicdisctomatchBedrock\n♿AddedanewoptionintheAccessibilitymenucalledDamageTiltforcontrollingtheamountofcamerashakewhenbeinghurt\n🏞️UpdatedCreateNewWorldScreen\n-TabscanbeswitchedwiththekeyboardbypressingCtrl+TabandCtrl+Shift+Tab\n-SpecifictabscanalsobenavigatedtobypressingCtrl+TabNumber\n-Addedascreentoeasilytoggleexperimentalfeatures\n🖼️Addedpaintingvariantstocreativemenu\n⚙️Threenewentitieshavebeenaddedforflexibledisplayofitems,blocksandtext\n🤺Addednewcommandtoapplydamagetoentities.\n-`/damage<target><amount>[<damageType>][at<location>]`\n-`/damage<target><amount>[<damageType>][by<entity>][from<cause>]`\n🗜️Addednew`execute`sub-commandforsummoningnewentityandbindingcontext(`@s`)toit\n-`executesummon<entityid>`\n🌳Added`doVinesSpread`gamerule,determiningifvineswillspreadtonearbyblocks\n\n**Fixes**\n📳NumerousfixesregardingSkulkSensorsnotactivateduponsomeentityactivities&playerinteractions\n🦍TheWardendoesnotdealthesameamountofdamagetotheplayerandentitiesindifficultmode\n🐷OpeningaMinecartwithHopperprovokesPiglins,eventhoughopeningaHopperdoesn'tprovokethem\n👖Z-fightingcanbeseenonleggingsandbootswornbyentities\n⚙️Theexecuteonownersub-commanddoesnotselecttheownerofahorse,donkey,llama,ormule\n🐎Using`/ride`onanentityinanotherdimensioncausesclient/serverdesync\n🖥️`/executeifloaded<pos>`alonealwaysfails\n🖋️Insomelanguages,textistoolongandescapesbuttons\n🛡️Blockingattackswithshieldscausesthedamagetilttoplayandreddamagetinttoshow\n\n...Andmanymoretechnicalchangesandfixes!",
+
+		"title":"**Snapshot23w06a**",
+
+		"article":"https://www.minecraft.net/en-us/article/minecraft-snapshot-23w06a"
+
+	},
+
+	{
+
+		"id":"23w04a",
+
+		"log":"**ExperimentalFeatures**\n🎨Addedanewarmortrimmingsystemtovisuallycustomizeyourarmor\n📜AddedSmithingTemplateitems\n-Usedforvisuallycustomizingarmors\n-DifferenttypesofTemplatescanbefoundindifferentstructuresaroundyourMinecraftWorld\n-UsemineralslikeRedstone,Diamond,Amethyst,etc...todefinetheircolor\n-Armorcannothavethesamematerialitismadeofappliedtoitasatrim\n-Thereare11typesofSmithingTemplates&10usablemineralsforSmithingTemplates\n-AcopyofaSmithingTemplatecanbecraftedwith7diamonds+1blockofmaterialthatthetemplateismadeoutof+1SmithingTemplate\n🔨RedesignedtheSmithingTable\n-Cannowbeusedforupgradinggearsandmodifyingarmors\n-AddedarequiredslotforSmithingTemplates\n⚫️ChangedhowNetheriteequipmentiscrafted\n-NowrequiresaNetheriteUpgradeSmithingTemplate,whichcanbefoundinBastionRemnants\n\n**Changes**\n📘Enchantmentglintonitemsandarmorisnowmoresubtle\n...Andmanyothertechnicalchanges!\n\n**Fixes**\n💥BlastProtectiondoesnotreduceexplosionknockbackexceptatveryhighlevels\n🔈\"Narrator:NotAvailable\"isn'tgrayedoutonaccessibilitysplash\n📯AllgoathornsdisplayasPondergoathornsandplaythePonderinstrument\n📦Youcannotselectincompatibleresourcepackswithintheresourcepacksmenuviakeyboardnavigation",
+
+		"title":"**Snapshot23w04a**",
+
+		"article":"https://www.minecraft.net/en-us/article/minecraft-snapshot-23w04a"
+
+	}
+
 ]
