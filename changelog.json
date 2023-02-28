@@ -1,219 +1,176 @@
 [
-
   {
-
     "id": "1.19.3",
-
     "log": "**Highlights**\n📦 Some experimental features are now available through built-in experimental datapacks\n🧥 Added new default skins for offline players\n👻 The Vex now has a new look\n🦴 In the Nether dimension Endermen, Skeletons and Wither Skeletons now only spawn at light level 7 and below (instead of 11 and below)\n💡 Numerous changes to Creative Inventory ordering & contents\n🥚 Added new Spawn Egg items for Ender Dragon, Iron Golem, Snow Golem and Wither mobs to Creative mode\n📩 Added Draft Player Reports\n🏜️ Added new `fillbiome` command & sub-commands `execute if|unless biome`\n⚙️ Added new Telemetry Events\n📜 New gamerules: `blockExplosionDropDecay, mobExplosionDropDecay, tntExplosionDropDecay, snowAccumulationHeight, waterSourceConversion, lavaSourceConversion, globalSoundEvents`\n\n**Experimental Features**\n🐪 Added Camels\n🎍 Added new bamboo wood set\n📚 Added Chiseled Bookshelves\n💰 Added Bundles\n📝 Added Hanging Signs\n🎵 When placing a Mob Head on a Note Block, that Note Block will now play one of the ambient sounds of that mob when played by a player or powered by Redstone\n🐽 Added Piglin Heads\n\n**Fixes**\n...Too many to list out! Check the changelog for the full list of all changes & fixes.",
-
     "title": "**1.19.3**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-3"
-
   },
-
   {
-
     "id": "23w05a",
-
     "log": "**Changes**\n🏞️ Updated the Create New World screen. Now has three tabs:\n- Game-Tab allows to set the world name, Gamemode, Difficultly and whether to allow cheats\n- World-Tab allows to set the World-Type and Seed, and to toggle the generation of structures and the bonus chest\n- More-Tab provides access to the Game Rules and DataPack Selection Screen\n⚙️ Removed the Import Settings button and the corresponding Export Settings button in the Edit World Screen\n👕 Interacting with armor or elytra items in-hand will now swap them with equipped gear\n🖥️ Changed how tooltips in the menu UI are positioned so buttons are still readable\n✨ Added two new options in the Accessibility menu for adjusting the speed and transparency of enchantment glints\n♾️ `infinite` is now a valid option for effect durations\n\n**Experimental Features**\n🥼 Armor trims can now be applied to leather armor\n🔹 Armor can now have trims of the same material it is made out of\n📦 Adjusted loot table for Smithing Templates\n- Dune, Coast, Wild, Sentry Templates will now always generate 2 templates in a chest when found\n- Netherite Upgrade smithing templates have been made twice as common\n- 1 Eye Armor Trim is now guaranteed in every Stronghold library chest\n- Woodland Mansions now have a greatly increased chance of generating the Vex Armor Trim smithing template\n- Across the board, smithing templates have been made slightly more common\n\n**Fixes**\n🧟‍♂️ Drowned no longer have a different swimming animation\n🐪 Camels and Frogs don't play their walking animations when they are damaged\n🇺🇸 The accessibility onboarding screen can not display any language other than English (US)\n📚 Stronghold library loot table has been replaced by stronghold altar loot table\n🎨 Pixels not present in the palettes get erased, not kept\n\n...And more!",
-
     "title": "**Snapshot 23w05a**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w05a"
-
   },
-
   {
-
     "id": "1.19.4-pre1",
-
     "log": "**Note**\n⚠️ Experimental 1.20 worlds created in the previous snapshot (23w07a) can no longer be opened in this version\n\n**Changes**\n✨ The enchantment glint for items in the inventory has been made more visible\n💧 Potions no longer have an enchantment glint due to it obscuring the color of the potion contents\n♿ Added a built-in resource pack that enhances the contrast of UI elements, which can be enabled in the Accessibility Options screen\n🖥️ The appearance of the tab bar in the Create New World screen has been updated\n🖌️ The Brush crafting recipe now uses a Feather, Copper Ingot and Stick in a vertical line\n⚙️ New `execute` sub-command for finding positions on top of a heightmap. Changes the height of the execution position to be on top of the given heightmap\n- `execute positioned over <heightmap>`\n\n**Fixes**\n♥ Axolotls no longer give the Regeneration effect to nearby players after they kill a mob, and do not grant \"The Healing Power of Friendship!\" advancement\n🏞️ Create new world screen appears even when world is created; clicking on button causes freeze or crash\n🐴 Camels, horses and mules bounce high into the air when being ridden across water\n🐪 Sitting camels don't stand up and begin following players that are tempting them with their favorite food\n🌸 On existing snapshot servers, cherry grove biomes cannot be found with \"/locate\", nor do they generate\n📦 Disabling experimental features on the world creation screen causes pack validation to fail\n🗯️ Some mobs panic when receiving fall damage\n🔥 Cherry Logs and Wood can't be used as fuel in furnaces\n👮‍♂️The server process crashes when making a slime ride a iron golem\n🖌️ Brush Recipe is in the Vanilla datapack, not 1.20\n\n...And more changes & fixes!",
-
     "title": "**1.19.4 Pre-release 1**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-1"
-
   },
-
   {
-
     "id": "23w03a",
-
     "log": "**Experimental Changes**\n🎵 Mob heads can now be placed on top of note blocks without sneaking\n\n**Changes**\n👻 Vexes now use a separate charging animation when empty-handed\n🥼 Armor Stands now preserve custom names when placed and broken\n♿ Added an accessibility onboarding screen for players launching the game for the first time\n🦘 Auto-Jump is now off by default\n⌨️ Added arrow key navigation. Menu screens can now be navigated by using the arrow keys. When navigating with arrow keys, sliders need to be activated by pressing Enter or Space to start changing the value\n🕐 Added a new \"Notification Display Time\" accessibility option\n⚙️ The data pack version is now 11\n🗺️ The `clone` command now supports cloning to and from different dimensions. New syntax: `clone [from <sourceDimension>] <begin> <end> [to <targetDimension>] <destination> ...`\n🐴 New command to allow entities to start or stop riding other entities - `ride <target> mount <vehicle>` / `ride <target> dismount`\n🔧 Added new gamerule `commandModificationBlockLimit`, controlling the maximum number of blocks changed in one execution of `clone`, `fill` and `fillbiome`\n\n**Fixes**\n⚔️ Damage wobble no longer shows direction of incoming damage\n⏹️ Multiple buttons can be selected by pressing another button and Tab\n👁️ The spectate command does not work between dimensions\n🛒 Minecart with hopper not picking matching items from a mixed pile\n🔥 Burning mobs won't get extinguished by rain in warm patches of Frozen Ocean biome\n🛏️ Entering an End Portal whilst sleeping causes the bed to be occupied permanently\n👨‍🌾 Villager AI broken when workstation is nearby\n\n...And many more technical changes & fixes!",
-
     "title": "**Snapshot 23w03a**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w03a"
-
   },
-
   {
-
     "id": "1.19.4-pre2",
-
     "log": "**Changes**\n🌸 Updated the texture for Pink Petals, Cherry Door, Cherry Sapling, and Cherry Boat with Chest\n🏺 Updated model for the Decorated Pot\n⚙️ Only mobs in the `dismounts_underwater` entity tag will now force the rider to dismount when underwater\n\n**Fixes**\n🏹 Loaded crossbows look unloaded in item frames and when dropped on the ground\n⛏️ Casting issue: Broken blocks drop items in the wrong position at high distances\n🖥️ Zombie riding chicken or skeleton riding spider not considered controllers by `/execute` on controller command\n🔘 Tooltips from selected buttons and sliders don’t disappear when expected\n📦 UI Buttons break certain resource packs as of 23w06a\n🆎️ Upon entering the credits screen while in F1 mode, the Minecraft: Java Edition logo does not display correctly\n🏷️ `item_display` does not take some nbt tags into account\n🔢 Display entities in spawn chunks with `interpolation_duration` greater than 0 visually reset to default transformation on rejoin\n💾 There is no “Will be saved in…” text in the new world creation menu\n<:emerald:590539774365007912> Clicking with an item that is out of stock in the villager trading menu with sufficient payment will allow purchase of the item regardless\n👜 Items are not rendered in the bundle UI\n⚔️ Striders and blazes do not take five times the damage when using `/damage` with freeze type\n⛵ Player can climb up one block while riding a boat or raft\n🌊 Water mobs cannot be ridden in water\n\n...And more!",
-
     "title": "**1.19.4 Pre-release 2**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-2"
-
   },
-
   {
-
     "id": "23w07a",
-
     "log": "**Experimental Features**\n🦄 Added Sniffer mob and Torchflower\n- Sniffers cannot be tempted or tamed, are passive friendly mobs, sniff in the air and occasionally dig for seeds\n- Torchflower seed can be planted on farmland and grows into a flower, and can be used to breed Sniffers. The full-grown flower can be harvested, replanted, and crafted into a dye\n⚒️ Added Archeology, Pottery Shards, Suspicious Sand, the Brush item, and Decorated Pots\n- Suspicious Sand can be found in Desert Temples and Desert Wells, and can be brushed\n- Decorated Pots can be crafted with four Pottery Shards. Can replace either side with Brick to create Decorated Pots with no pictures\n🌸 Added Cherry Grove biome, new Cherry wood set and Pink Petals block\n- You can find the new biome in the mountains, like Meadows\n\n**Changes**\n🛠️ The Crafting Table recipe is unlocked immediately on creating a new world\n🎵 While playing a music disc, the Jukebox will emit a redstone signal of 15; Droppers and hoppers can now interact with Jukeboxes\n♥️ When breeding horses and the like, the babies' speed, jump height and health are no longer biased toward the average\n⚙️ Added Interaction Entities, new types of entities that records attacks (\"left clicks\") and interactions (\"right clicks\")\n\n**Fixes**\n🐦 Allays sometimes have a several-second delay before deciding to follow the player\n🏇 Player is kicked from a server for flying in death screen when dying on a Horse or Camel\n💥 The game crashes when navigating with arrow keys after changing key binds\n🐴 Players cannot dismount when riding `item_display`, `block_display` and `text_display` using the ride command\n✏️ Z-fighting on the text of text displays\n✨ Resource Pack won't load if it contains reference to non-existing particles\n\n...And many more!",
-
     "title": "**Snapshot 23w07a**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w07a"
-
   },
-
   {
-
     "id": "23w06a",
-
     "log": "**Features & Changes**\n🎵 Jukeboxes now emit a note particle above them while playing a music disc to match Bedrock\n♿ Added a new option in the Accessibility menu called Damage Tilt for controlling the amount of camera shake when being hurt\n🏞️ Updated Create New World Screen\n- Tabs can be switched with the keyboard by pressing Ctrl+Tab and Ctrl+Shift+Tab\n- Specific tabs can also be navigated to by pressing Ctrl+Tab Number\n- Added a screen to easily toggle experimental features\n🖼️ Added painting variants to creative menu\n⚙️ Three new entities have been added for flexible display of items, blocks and text\n🤺 Added new command to apply damage to entities. \n- `/damage <target> <amount> [<damageType>] [at <location>]`\n- `/damage <target> <amount> [<damageType>] [by <entity>] [from <cause>]`\n🗜️ Added new `execute` sub-command for summoning new entity and binding context (`@s`) to it\n- `execute summon <entity id>`\n🌳 Added `doVinesSpread` game rule, determining if vines will spread to nearby blocks\n\n**Fixes**\n📳 Numerous fixes regarding Skulk Sensors not activated upon some entity activities & player interactions\n🦍 The Warden does not deal the same amount of damage to the player and entities in difficult mode\n🐷 Opening a Minecart with Hopper provokes Piglins, even though opening a Hopper doesn't provoke them\n👖 Z-fighting can be seen on leggings and boots worn by entities\n⚙️ The execute on owner sub-command does not select the owner of a horse, donkey, llama, or mule\n🐎 Using `/ride` on an entity in another dimension causes client/server desync\n🖥️ `/execute if loaded <pos>` alone always fails\n🖋️ In some languages, text is too long and escapes buttons\n🛡️ Blocking attacks with shields causes the damage tilt to play and red damage tint to show\n\n...And many more technical changes and fixes!",
-
     "title": "**Snapshot 23w06a**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w06a"
-
   },
-
   {
-
     "id": "23w04a",
-
     "log": "**Experimental Features**\n🎨 Added a new armor trimming system to visually customize your armor\n 📜 Added Smithing Template items\n- Used for visually customizing armors\n- Different types of Templates can be found in different structures around your Minecraft World\n- Use minerals like Redstone, Diamond, Amethyst, etc... to define their color\n- Armor cannot have the same material it is made of applied to it as a trim\n- There are 11 types of Smithing Templates & 10 usable minerals for Smithing Templates\n- A copy of a Smithing Template can be crafted with 7 diamonds + 1 block of material that the template is made out of + 1 Smithing Template\n🔨 Redesigned the Smithing Table\n- Can now be used for upgrading gears and modifying armors\n- Added a required slot for Smithing Templates\n⚫️ Changed how Netherite equipment is crafted\n- Now requires a Netherite Upgrade Smithing Template, which can be found in Bastion Remnants\n\n**Changes**\n📘 Enchantment glint on items and armor is now more subtle\n...And many other technical changes!\n\n**Fixes**\n💥 Blast Protection does not reduce explosion knockback except at very high levels\n🔈 \"Narrator: Not Available\" isn't grayed out on accessibility splash\n📯 All goat horns display as Ponder goat horns and play the Ponder instrument\n📦 You cannot select incompatible resource packs within the resource packs menu via keyboard navigation",
-
     "title": "**Snapshot 23w04a**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w04a"
-
   },
-
   {
-
     "id": "1.19.3-rc1",
-
     "log": "**Fixes**\n🔦 Smooth Lighting Minimum and Maximum levels no longer differ\n⌨️ Using Tab multiple times to select a datapack / resource pack from the list does not deselect it\n⚙️ Mobs continue converting after the conversion process starts and the block causing the conversion is removed\n🏞️ World border texture jumps back and forth between two positions as the player’s y level changes\n🍶 You cannot get water bottles from water in creative mode if there’s a potion in your inventory\n🐲 Pick block doesn’t work on Ender Dragon\n🛠️ Performance degradation of NBT modification\n🫧 Bubble columns let skylight through\n📦 Storage data is broken\n\n...And more!\n\n**1.19.3 Release Candidate 2**\n\n**Fixes**\n📝 Slots (like %s) in translations no longer ignore missing elements in \"with\"\n🖥️ Cannot join a LAN world while offline\n\n**1.19.3 Release Candidate 3**\nhttps://www.minecraft.net/en-us/article/minecraft-1-19-3-release-candidate-3\n\n**Fixes**\n☠️ Potion effects, particles, and fire animations persist client-side after death in server environments\n⚙️ The \"EntityTag\" NBT data on armor stands is no longer applied upon placement\n🎇 Particle groups aren't cleared on resource reload",
-
     "title": "**1.19.3 Release Candidate 1**",
-
     "article": "https://www.minecraft.net/article/minecraft-1-19-3-release-candidate-1?2"
-
   },
-
   {
-
     "id": "1.19.3-pre3",
-
     "log": "**Fixes**\n📦 Shulker box still plays the close sound, even if it is destroyed or replaced\n💥 Server crashes as player logs in\n🥼 Players’ capes and outer skin layers don’t render client-side in server environments when joining worlds while dead\n🎍 Top and bottom texture of block of bamboo rotated incorrectly\n👻 Vexes’ hitboxes aren’t vertically centered with their models\n🎵 Player heads with a custom skin lose their noteblock sound data when using Ctrl+Pick block\n🔍 Villagers and Piglin no longer seek out Items\n...And more!",
-
     "title": "**1.19.3 Pre-release 3**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-3-pre-release-3"
-
   },
-
   {
-
     "id": "1.19.3-pre2",
-
     "log": "**Changes**\n⌨️ Tweaks to how tooltips are being displayed\n🏦 Optimized some exceptionally slow cases of structure lookup\n\n**Fixes**\n<:creeper:985601184494682172> Creepers can’t be ignited with a fire charge\n📦 “Place pack files here” hover text on pack selection screen shows everywhere when “Open pack folder” button has focus\n🐝 Bees get stuck on non-full blocks\n🐪 Some shorter mobs can attack Players on a Camel\n🖱️ The “Data Collection” button in the telemetry menu, and Buttons within the list in the social interactions menu displays its hover text regardless of the position of the cursor\n🚪 Villagers rarely close doors after going through them\n📝 The draft report icon isn’t present on any of the “Title Screen” buttons within the death screen when attempting to disconnect from worlds while having saved draft reports",
-
     "title": "**1.19.3 Pre-release 2**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-3-pre-release-1?2"
-
   },
-
   {
-
     "id": "1.19.3-pre1",
-
     "log": "**Technical Changes**\n🐷 Added new entity sub-predicate types: axolotl, boat, fox, mushroom, painting, rabbit, horse, llama, villager, parrot, tropical_fish\n🏞️ fillbiome command now supports a filtered mode\n<:steve:302438795385634847> Player Heads can now contain a note_block_sound field\n\n**Fixes**\n<:pinged_villager:427072148671168533> Villager pathfinding broken in water\n🌊 Certain mobs can’t get out of water that is at least two blocks deep\n👻 Vex texture does not utilize translucency\n📚 Top and bottom texture of chiseled bookshelf rotates depending on placement\n🎨 Inventory menu has broken textures with Programmer Art enabled\n📳 Sculk sensors are not activated upon taking books from chiseled bookshelves\n...And more!",
-
     "title": "**1.19.3 Pre-release 1**",
-
     "article": "https://www.minecraft.net/article/minecraft-1-19-3-pre-release-1"
-
   },
-
   {
-
     "id": "22w46a",
-
     "log": "**Experimental Features**\n📚 Books in Chiseled Bookshelf can be added or removed from any slot by targeting the specific slot\n🎵 When placing a Mob Head on a Note Block, that Note Block will now play one of the ambient sounds of that mob when played by a player or powered by Redstone\n<:pig_unamused:674735134687232010> Piglins will now drop their heads when killed by a charged Creeper; which is also usable on a noteblock\n<:nether_portal:725184666109214751> In the Nether dimension Endermen, Skeletons and Wither Skeletons now only spawn at light level 7 and below\n🎍 Added new top textures for Block of Bamboo and Block of Stripped Bamboo; tweaked Bamboo Plank texture\n💡 Reordered Redstone tab based on feedback\n<:enderman:302439778081832961> Blocks carried by Endermen now use loot tables to generate drops when killed\n🎨 Changes to texture loading and stitching to improve performance\n⚙️ Added new Telemetry Events\n<:command_block_i:633236735345557506> New `fillbiome` command that will change biome entries for an area; `execute` commands can now be conditional on biomes.\n\n**Fixes**\n🦑 Squids use the new texture when using Programmer Art\n⌨️ You cannot hold any key to rapidly navigate between elements quickly after opening the inventory\n*️⃣ You cannot hold the TAB key to navigate between buttons quickly in some menus\n☠️ Heads and Skulls are placed backwards\n📝 Long player names within the “Select Chat Messages to Report” menu can extend past the scroll bar\n🏞️ Players sometimes get stuck on the “Loading terrain…” screen after switching dimensions whilst dead\n🥚 Ender dragon, wither, snow golem and iron golem spawn eggs from before 1.13 do not convert properly\n🚪 Villagers and piglins can’t open or close doors\n💥 End crystal knockback bug\n\n...And many more!",
-
     "title": "**Snapshot 22w46a**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w46a"
-
   },
-
   {
-
     "id": "22w45a",
-
     "log": "**New features**\n- 👤 Added new default skins for offline players\n- 🎍 Added Block of Bamboo and Stripped Block of Bamboo\n> - Block of Bamboo can be crafted from 9 Bamboo and can be stripped like other wood logs\n> - Bamboo Planks crafted from Block of Bamboo yield only 2 planks compared to 4 for wood logs\n\n**Changes**\n- 🚧 More changes to the Creative Inventory (see full article for details)\n- 💅 The Vex now has a new look (model and textures). The Vex retains a slightly oversized hitbox to make it easier to fight\n\n**Technical changes**\n- 🌐 The /publish command has new arguments to enable commands and set the default gamemode\n> - New syntax: `/publish [allowCommands] [gamemode] [port]`\n- 🗄️ Changes to the \"Open to LAN\" screen\n> - The screen now allows selecting the port on which to host the LAN world\n> -The game mode and allow cheats buttons are now initialized with the default values of the world\n- 🎨 **The Resource Pack version is now 12**. If you have your own resourcepack, you will have to adjust the version in your .mcmeta file to work with 22w45a onwards.\n\n**Fixes**\n...Too many fixes to list out! Check out the link for the full list of fixes.",
-
     "title": "**Snapshot 22w45a**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w45a"
-
   },
-
   {
-
     "id": "22w43a",
-
     "log": "**Changes**\n🥚 Changed the colors of the Camel Spawn Egg\n🐪 Tweaked Camel walk cycle animation\n🚪 Fence Gates no longer provide center support beneath them\n💬 The Chat Reporting screen now shows when the player being reported rejoined chat\n🛠️ Numerous tweaks to Creative Inventory\n📝 Player Reports can now be kept temporarily as a draft while connected to a server\n⚙️ Migrated linear algebra types to Java OpenGL Math Library (JOML)\n🖥️ Servers can now lazily distribute players’ profile public keys along with their first chat packet\n📥 Profile public keys will now be refreshed without reconnecting\n📧 Clients now reset their chat session on receiving a login packet\n\n**Fixes**\n🛡️ Shield damage direction is incorrect\n🫧 Splash water bottles don’t extinguish mobs and player\n💰 Villagers lose their discounts when relogging while it is a zombie villager\n🚣 Going into water does not extinguish the fire on you if you’re in a boat\n✏️ Line spacing on Hanging Signs is too small, causing certain characters to overlap\n🐷 Entities will often spin while pathfinding on top of wall hanging signs\n...And more!",
-
     "title": "**Snapshot 22w43a**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w43a"
-
   },
-
   {
-
     "id": "22w42a",
-
     "log": "**Notice**\n⚠️ starting from 1.19.3, Minecraft: Java Edition will start to release multiple minor versions per year. More details at https://help.minecraft.net/hc/en-us/articles/9971900758413\n\n**New Features**\n🧪 Some experimental features are now available through built-in experimental datapacks. More details at https://www.minecraft.net/en-us/article/testing-new-minecraft-features/feature-toggles-java-edition\n💰 Bundles are now available as an experimental feature\n🏞️ Added a new “Panorama Scroll Speed” accessibility option\n\n**Experimental Features**\n🐪 Added Camel\n🎍 New wood set for Bamboo\n📚 Added Chiseled Bookshelf\n📝 Added Hanging Sign\n\n**Changes**\n🪛 Reworked the Creative Inventory tabs\n 📨 Changes to chat\n<:nether_portal:725184666109214751> The Realms News button will now show a confirmation screen before opening the link\n<:enderman:302439778081832961> Stronghold placement code has been changed to be more efficient, causing stronghold positions to shift\n\n**Fixes**\n...Too many changes & fixes to list out! Check out the link for full changelogs",
-
     "title": "**Snapshot 22w42a**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w42a"
-
   },
-
   {
-
     "id": "22w44a",
-
     "log": "**Changes**\n- 🎍 Bamboo Mosaic can now be used as fuel\n- 📚 Chiseled Bookshelves now work with Hoppers\n- 🚧 More changes to the Creative Inventory (see full article for details)\n- <:pig_unamused:674735134687232010> __Monster Spawner Changes__\n> - Spawners no longer have a default mob spawn type when placed by a player (previously was the Pig)\n> - Will not emit fire particles when a mob spawn type has not been defined\n> - Renamed to Monster Spawner to match Bedrock, and removed purple text color\n> - Pick-block now works for Spawner blocks\n> - The mob type is now displayed in the hover description of a Spawner item stack\n> - If a mob type has not been defined yet, the hover description will describe how to set it\n- 🥚 __Spawn Egg changes:__\n> - Added new Spawn Egg items for Ender Dragon, Iron Golem, Snow Golem and Wither mobs to Creative mode\n> - Ender Dragon and Wither Spawn Eggs will only be available through commands to prevent accidental destruction of player builds\n> - Polar Bear Spawn Egg colors have changed to distinguish it from the Ghast Spawn Egg\n- 🐾 __Step sound changes__:\n> - Step sounds can now be heard when walking on Carpets, Lily Pads, and Small Amethyst Buds\n> - Step sounds can now be heard when walking through Nether Sprouts, Glow Lichen, Crimson Roots, and Warped Roots\n\n**Technical changes**\n- 📏 Added new game rules: `blockExplosionDropDecay`, `mobExplosionDropDecay`, `tntExplosionDropDecay`, `snowAccumulationHeight`, `waterSourceConversion`, `lavaSourceConversion`, `globalSoundEvents`\n> To find out what each of these game rules do, check out the full article linked at the top!\n\n**Fixes**\n...Too many fixes to list out! Check out the link for the full list of fixes.",
-
     "title": "**Snapshot 22w44a**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w44a"
-
   },
-
   {
-
     "id": "1.19.2",
-
     "log": "**Highlights**\n📨 Fixed an issue causing players to get disconnected with secure chat\n💥 Fixed a crash in the social interactions screen",
-
     "title": "**1.19.2**",
-
     "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-2"
-
+  },
+  {
+    "id": "1.19.2-rc1",
+    "log": "**Fix**\n🌐 Fixed a critical issue related to server connectivity with secure chat\n\n------------------------------\n**1.19.2 Release Candidate 2**\n\n**Fix**\n💥 Fixed a crash",
+    "title": "**1.19.2 Release Candidate 1**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-2-release-candidate-1"
+  },
+  {
+    "id": "1.19.1",
+    "log": "**Highlights**\n<:allay:951406311323607080> Allay duplication\n📳 Tweaked Sculk Catalysts\n🔏 Added Chat Trust status\n📜 New Options for Chat Preview\n🚩 Added Player Reporting\n\nSee the blog post for more details on changes & fixes",
+    "title": "**1.19.1**",
+    "article": "https://www.minecraft.net/article/minecraft-java-edition-1-19-1"
+  },
+  {
+    "id": "1.19.1-rc2",
+    "log": "**Notice**\n🗓️ If no critical issues are found, full version will be released next week\n\n**Changes**\n🖊️ Tweaked the names of the chat preview options\n🔒 Added a warning toast when connecting to a server that doesn’t enforce secure chat\n\n**Fixes**\n🖱️ Key binds set to mouse buttons of number greater than 8 switch over by 1 when the game starts\n📧 Debug messages aren’t prefixed with gray color indicators\n\n------------------------------\n**1.19.1 Release Candidate 3**\nhttps://www.minecraft.net/en-us/article/minecraft-1-19-1-release-candidate-3\n\n**Change**\n💬 The chat input box will no longer apply custom font glyphs with negative advances, or glyphs with advances greater than 32\n\n**Fix**\n🖥️ Warning and information toasts can overlap one another",
+    "title": "**1.19.1 Release Candidate 2**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-release-candidate-2"
+  },
+  {
+    "id": "1.19.1-pre6",
+    "log": "**Changes**\n👻 Sculk Catalysts will now drop 5 XP instead of 20 XP\n🔏 Colors of the signing indicators for sending a message have been adjusted for improved accessiblity\n⚙️ The `run_command` click event for text components no longer supports any commands that send chat messages\n- `/tellraw` should be used instead\n\n**Fixes**\n<:linux_tux:892149029343997982> Linux game crash when opening links\n💥 Crash on loading pre-1.13 world with noteblock + note NBT in inventory\n📳 Player-dropped items creating vibrations depends on you sneaking at the moment the item hits the ground, instead of when you threw the item\n📦 Game crash when you shift right click on item in your hotbar to the chest at the same time as you die\n📧 Unable to text in chat with Chat Preview On send while sleeping\n🖌️ Crash when putting dye into a loom on a modded server\n\n...And more!",
+    "title": "**1.19.1 Pre-release 6**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-6"
+  },
+  {
+    "id": "1.19.1-pre5",
+    "log": "**Changes**\n🖋️ When writing chat messages, the signing status of the displayed chat messages is shown with a colored indicator\n🗨️ Chat Preview is now enabled in singleplayer, and will display when using commands that have selector substitution such as /say\n...And more!\n\n**Fixes**\n🤖 `/debug` stop message uses OS locale specific number formatting\n🖱️ Scroll Sensitivity slider label uses OS locale for number formatting\n🔊 Poor audio quality compared to 1.18.2\n💥 Game crashes when trying to launch 1.19 when system is in Arabic, Persian, or adjacent formats\n📝 “A preposition is incorrectly used within the ““gui.abuseReport.reason.terrorism_or_violent_extremism.description”” string”\n📨 Messages that servers have tampered with through chat reporting are signed and reportable\n📧 Sending a chat message too fast after typing it fails to sign the eventual proper chat preview\n🖊️ “The current description of ““Imminent harm - Threat to harm others”” report category seems not matching its title”\n💬 “Chat Preview components allow server to ““hide”” content”",
+    "title": "**1.19.1 Pre-release 5**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-5"
+  },
+  {
+    "id": "1.19.1-pre4",
+    "log": "**Technical Changes**\n🗨️ Custom servers can hide player chat messages from display via a new network packet. This does not delete player chat messages from chat logs\n🛡️ Insecure chat messages logged in the server are prefixed with a `[Not Secure]` tag\n🖥️ The order of chat messages are now cryptographically verified. This is used for validating the context of chat messages for Player Reports\n\n**Fixes**\n💬 The server console doesn’t state if chat messages aren’t secure or have been modified\n🔐 Chat commands with entity selectors often reported as “This message is not secure”",
+    "title": "**1.19.1 Pre-release 4**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-3?4"
+  },
+  {
+    "id": "1.19.1-pre3",
+    "log": "**Changes**\n💬 Moved the chat scrollbar to the right of the chat window\n✉️ System message are now displayed with a gray color indicator\n⚙️ Several technical changes:\n- Custom servers can set their own auto-completion options for regular chat via a new network packet\n- The list of players on the Social Interactions screen now places entries for players with recently seen messages at the top of the list\n- The `msg_command` chat type has been split apart into `msg_command_incoming` and `msg_command_outgoing`\n- The `team_name` chat type parameter has been renamed to `target`. This chat type parameter is now used by `msg_command_outgoing`\n\n**Fixes**\n🖊️ The second instance of a reflexive pronoun is used incorrectly within the “gui.abuseReport.reason.self_harm_or_suicide.description” string\n🛠️ Tooltips will become offset in certain cases\n✏️ A preposition is incorrectly used within the “gui.abuseReport.reason.terrorism_or_violent_extremism.description” string\n🤖 /execute as {player} run say counts to the report system\n🚦 The chat scroll bar overlaps the colored indicators used to show the trust status of messages\n🗣️ Whispers appear as modified by the server",
+    "title": "**1.19.1 Pre-release 3**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-3"
+  },
+  {
+    "id": "1.19.1-pre2",
+    "log": "**Notice**\n📢 New Player Reporting FAQ is now available:\n- https://help.minecraft.net/hc/en-us/articles/7317376541197\n- https://www.minecraft.net/en-us/article/addressing-player-chat-reporting-tool\n\n**Changes**\n💬 You can now check the signing status of chat messages\n- Messages that are not signed with the Secure Chat system, or have been tampered with by the server will now be marked\n- The trust status of messages are displayed with both a colored indicator and an icon\n- Hovering over the icon will provide more information about the trust status\n🌐 `enforce-secure-profiles` now defaulted to `true` for dedicated servers\n...And more!\n\n**Fixes**\n🖋️ The game output console is logged with warnings regarding chat packets with invalid signatures when using entity selectors within commands\n<:mc_pig:302439003012202496> Entities and other non-player chat message sources appear in the Social Interactions menu\n📶 Online players cannot connect to offline server because “invalid profile public key signature”\n...And more!",
+    "title": "**1.19.1 Pre-release 2**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-2"
+  },
+  {
+    "id": "1.19.1-rc1",
+    "log": "**Changes**\n📢 Updated the categories for chat reporting\n🤖 The `run_command` click event for text components no longer supports sending chat messages directly\n💬 Increased the amount of chat context sent with each chat report\n\n**Fixes**\n<:allay:951406311323607080> Allay doesn’t ignore items when mobGriefing is set to false\n🏞️ Bedrock not generating on the new blending border between old and new blending\n🧑‍🤝‍🧑 Players can only be reported using the reporting system if they’re present within the world\n👁️ Using the eye of ender “crashes” game in the seed: -3721742095548798177\n...And more!",
+    "title": "**1.19.1 Release Candidate 1**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-release-candidate-1"
+  },
+  {
+    "id": "1.19.1-pre1",
+    "log": "**Changes**\n<:allay:951406311323607080> Allay duplication now has a 5-minute cooldown\n🚩  Along with the support for reporting chat, reported players can now be banned from online play and Realms after moderator review\n🖥️  The game will show a notice screen on startup if you have been banned from online play\n\n**Fixes**\n📦 Loading resource packs is significantly slower in 1.19\n🌎 World list fails to load after restarting game and deleting a world\n<:nether_portal:725184666109214751> Realms worldgen type missing language string\n🔊 Resource packs causing each WeighedSoundEvents to duplicate Sounds\n🖊️ Chat reporting uses “Messages” for one message\n🚩 Chat report category scroll bar intersects the selected option outline\n... and more!",
+    "title": "**1.19.1 Pre-release 1**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-1"
+  },
+  {
+    "id": "1.19.1-pre",
+    "log": "",
+    "title": "",
+    "article": ""
   }
-
 ]
