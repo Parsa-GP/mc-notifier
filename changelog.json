@@ -168,7 +168,19 @@
     "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-1"
   },
   {
-    "id": "1.19.1-pre",
+    "id": "22w24a",
+    "log": "**Changes**\n<:allay:951406311323607080> If the Allay is handed an Amethyst Shard while dancing it will duplicate\n🚩 It is now possible to report a player for sending abusive messages in the game chat. Can be accessed via the social interactions screen.\n\n**Fixes**\n📚 Nitwit villager can have a profession\n<:steve_villager:735868854328230019> Cured Villager can work at wrong workstation\n🌌 Sky color is visible for a brief moment after applying Night Vision under Darkness effect\n🐸 Frogs can lay spawn on flowing water\n📦 Loading server resource packs reloads twice when one is already loaded\n⚙️ Commands sending messages use formatting of regular chat in server logs\n...And more!",
+    "title": "**Snapshot 22w24a**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w24a"
+  },
+  {
+    "id": "1.19",
+    "log": "",
+    "title": "**1.19 - The Wild Update**",
+    "article": "https://www.minecraft.net/en-us/article/the-wild-update-out-today-java"
+  },
+  {
+    "id": "22w24a",
     "log": "",
     "title": "",
     "article": ""
