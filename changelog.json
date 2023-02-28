@@ -94,6 +94,30 @@
 
     "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w04a"
 
+  },
+
+  {
+
+    "id": "1.19.3-rc1",
+
+    "log": "**Fixes**\n🔦 Smooth Lighting Minimum and Maximum levels no longer differ\n⌨️ Using Tab multiple times to select a datapack / resource pack from the list does not deselect it\n⚙️ Mobs continue converting after the conversion process starts and the block causing the conversion is removed\n🏞️ World border texture jumps back and forth between two positions as the player’s y level changes\n🍶 You cannot get water bottles from water in creative mode if there’s a potion in your inventory\n🐲 Pick block doesn’t work on Ender Dragon\n🛠️ Performance degradation of NBT modification\n🫧 Bubble columns let skylight through\n📦 Storage data is broken\n\n...And more!\n\n**1.19.3 Release Candidate 2**\n\n**Fixes**\n📝 Slots (like %s) in translations no longer ignore missing elements in \"with\"\n🖥️ Cannot join a LAN world while offline\n\n**1.19.3 Release Candidate 3**\nhttps://www.minecraft.net/en-us/article/minecraft-1-19-3-release-candidate-3\n\n**Fixes**\n☠️ Potion effects, particles, and fire animations persist client-side after death in server environments\n⚙️ The \"EntityTag\" NBT data on armor stands is no longer applied upon placement\n🎇 Particle groups aren't cleared on resource reload",
+
+    "title": "**1.19.3 Release Candidate 1**",
+
+    "article": "https://www.minecraft.net/article/minecraft-1-19-3-release-candidate-1?2"
+
+  },
+
+  {
+
+    "id": "1.19.3-pre3",
+
+    "log": "**Fixes**\n📦 Shulker box still plays the close sound, even if it is destroyed or replaced\n💥 Server crashes as player logs in\n🥼 Players’ capes and outer skin layers don’t render client-side in server environments when joining worlds while dead\n🎍 Top and bottom texture of block of bamboo rotated incorrectly\n👻 Vexes’ hitboxes aren’t vertically centered with their models\n🎵 Player heads with a custom skin lose their noteblock sound data when using Ctrl+Pick block\n🔍 Villagers and Piglin no longer seek out Items\n...And more!",
+
+    "title": "**1.19.3 Pre-release 3**",
+
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-3-pre-release-3"
+
   }
 
 ]
