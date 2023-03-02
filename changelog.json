@@ -18,6 +18,12 @@
     "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-1"
   },
   {
+    "id": "1.19.4-pre3",
+    "log": "**Changes**\n🧪 Potions have had their colors adjusted to make them more distinguishable from each other\n📸 Pressing F3+S will now dump contents of dynamic textures (like atlases, maps, etc.) to screenshots/debug/\n🏺 Updated the textures of the Archer Pottery Shard based on community feedback\n\n**Fixes**\n🖥️ Error saving GUI scale option when toggling fullscreen while fullscreen resolution is changed\n<:enderman:302439778081832961> Endermen teleport away instead of taking damage from end crystal, TNT and wither skull explosions; and can’t dodge arrows fired from a dispenser\n📉 Reloading a resource pack that has a custom texture atlas for a second time causes severe FPS lag on the client\n🗑️ Cannot delete previous snapshot world in launcher\n<:guardian:631748221424893963> Crash when a guardian deals damage to itself after removing thorns from avoids_guardian_thorns\n💾 Repeating command block summoning piglins/villagers causes memory usage to constantly increase\n🐬 Dolphins with passengers either accelerate to ludicrous speed or are immobilized completely\n\n...And more!",
+    "title": "**1.19.4 Pre-release 3**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-2?3"
+  },
+  {
     "id": "23w03a",
     "log": "**Experimental Changes**\n🎵 Mob heads can now be placed on top of note blocks without sneaking\n\n**Changes**\n👻 Vexes now use a separate charging animation when empty-handed\n🥼 Armor Stands now preserve custom names when placed and broken\n♿ Added an accessibility onboarding screen for players launching the game for the first time\n🦘 Auto-Jump is now off by default\n⌨️ Added arrow key navigation. Menu screens can now be navigated by using the arrow keys. When navigating with arrow keys, sliders need to be activated by pressing Enter or Space to start changing the value\n🕐 Added a new \"Notification Display Time\" accessibility option\n⚙️ The data pack version is now 11\n🗺️ The `clone` command now supports cloning to and from different dimensions. New syntax: `clone [from <sourceDimension>] <begin> <end> [to <targetDimension>] <destination> ...`\n🐴 New command to allow entities to start or stop riding other entities - `ride <target> mount <vehicle>` / `ride <target> dismount`\n🔧 Added new gamerule `commandModificationBlockLimit`, controlling the maximum number of blocks changed in one execution of `clone`, `fill` and `fillbiome`\n\n**Fixes**\n⚔️ Damage wobble no longer shows direction of incoming damage\n⏹️ Multiple buttons can be selected by pressing another button and Tab\n👁️ The spectate command does not work between dimensions\n🛒 Minecart with hopper not picking matching items from a mixed pile\n🔥 Burning mobs won't get extinguished by rain in warm patches of Frozen Ocean biome\n🛏️ Entering an End Portal whilst sleeping causes the bed to be occupied permanently\n👨‍🌾 Villager AI broken when workstation is nearby\n\n...And many more technical changes & fixes!",
     "title": "**Snapshot 23w03a**",
@@ -180,7 +186,7 @@
     "article": "https://www.minecraft.net/en-us/article/the-wild-update-out-today-java"
   },
   {
-    "id": "22w24a",
+    "id": "22w24A",
     "log": "",
     "title": "",
     "article": ""
