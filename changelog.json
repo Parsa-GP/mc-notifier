@@ -186,6 +186,24 @@
     "article": "https://www.minecraft.net/en-us/article/the-wild-update-out-today-java"
   },
   {
+    "id": "1.19.4-pre4",
+    "log": "**Changes**\n📜 Added \"Credits & Attribution\" button in the Options menu\n⚙️ Display Entities: When a new interpolation is started, it now starts from the current state instead of the final state\n🌸 The textures for the Cherry Tree Leaves and Cherry Sign have been updated\n\n**Fixes**\n<:enderman:302439778081832961> Tall Grass & Large Fern are rendered incorrectly when an Enderman is holding them\n🖊️ Fixed several grammatical errors\n🕸️ Natural spider potion effects still last max int instead of infinity\n🏺 Entities don't recognize decorated pots as obstacles when pathfinding\n<:Sniffer_Baby_Idle:1028076926973264013> Sniffers in the distance have lots of Z-fighting on their body\n🛡️ You can block falling anvils and dripstone with a shield\n🖱️ Right-clicking will move packs in the pack edit screen\n👢 Players are kicked from server environments due to chat message validation failures when attempting to type in chat after having previously altered chat settings\n\n...And more!",
+    "title": "**1.19.4 Pre-release 4**",
+    "article": "https://feedback.minecraft.net/hc/en-us/articles/13819340688013"
+  },
+  {
+    "id": "1.19.4-rc1",
+    "log": "**Note**\n🗓️ If no further changes are needed, 1.19.4 will be released next week\n\n**Changes & Fixes**\n📦 Changes to display entity interpolation:\n - interpolation always starts at the beginning on client tick\n- field interpolation_start is replaced with start_interpolation, with a different meaning\n- start_interpolation describes amount of ticks from the start of next client tick after receiving an update to start of interpolation\n- start_interpolation is not stored in entity data\n🪛 Display entities summoned with initial transformation interpolate incorrectly from default transformation during next transformation",
+    "title": "**1.19.4 Release Candidate 1**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-release-candidate-1"
+  },
+  {
+    "id": "1.19.4-rc2",
+    "log": "**Fixes**\n🏆 Advancement icons handle translucent textures wrong\n<:guardian:631748221424893963> Guardians apply Thorns damage when hit by projectiles\n🖥️ Transparent 3D models dont render properly in the GUI/Hotbar",
+    "title": "**1.19.4 Release Candidate 2**",
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-release-candidate-1?rc2"
+  },
+  {
     "id": "22w24A",
     "log": "",
     "title": "",
